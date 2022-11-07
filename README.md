@@ -1,16 +1,17 @@
 # flash_cards
 
-A new Flutter project.
+Load a json file with flash cards into a simple UI for study.
 
-## Getting Started
+## JSON Format Example
+```
+[
+  {"front":"front", "back":"back"},
+  {"front":"front2", "back":"back2"}
+]
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Future Advancements
+* Add tests
+* Add local storage
+* Add local writing and saving of flash cards with organization
+* Allow for flash cards to be saved into multiple lists
