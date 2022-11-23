@@ -1,6 +1,6 @@
 # flash_cards
 
-Load a json file with flash cards into a simple UI for study.
+A simple Flutter UI to load and manipulate flash cards from a JSON file.
 
 ## JSON Format Example
 ```
@@ -10,7 +10,7 @@ Load a json file with flash cards into a simple UI for study.
 ]
 ```
 
-## Future Advancements
+## Future Enhancements
 * Add tests
 * Add local storage
 * Add local writing and saving of flash cards with organization
